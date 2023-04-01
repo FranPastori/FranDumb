@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(227, 99, 141)
+}
+
 form {
     text-align: center;
   }
@@ -9,7 +13,7 @@ form {
   
   button {
     position:relative;
-    background-color: #008080;
+    background-color: #f7c614;
     color: white;
     font-size: 18px;
     padding: 10px 20px;
@@ -19,6 +23,7 @@ form {
   }
   
   button:hover {
-    background-color: #00b3b3;
+    background-color: #fbe07f;
+   
   }
   
