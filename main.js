@@ -5,10 +5,10 @@ noButton.addEventListener("mouseover", function() {
 
 console.log(" o mouse esta sobre o botão")
     
- // const newPosX = Math.floor(Math.random() * (window.innerWidth - 100));
- // const newPosY = Math.floor(Math.random() * (window.innerHeight - 50));
- // noButton.style.left = newPosX + "px";
- // noButton.style.top = newPosY + "px";
+ const newPosX = Math.floor(Math.random() * (window.innerWidth - 100));
+ const newPosY = Math.floor(Math.random() * (window.innerHeight - 50));
+  noButton.style.left = newPosX + "px";
+  noButton.style.top = newPosY + "px";
 });
 
 yesButton.addEventListener("click", function() {
